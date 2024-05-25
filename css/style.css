@@ -8,6 +8,8 @@ html{
     box-sizing: inherit;
   }
   
+
+
   ul[class],
   ol[class] {
     padding: 0;
@@ -47,3 +49,104 @@ html{
   select {
     font: inherit;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    min-height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px;
+    /* font-family: "Merriweather", serif;
+    font-family: "Montserrat", sans-serif;
+    font-family: "Raleway", sans-serif; */
+  }
+
+.container {
+    margin: 0 auto;
+    max-width: 1190px;
+    padding: 0 10px;
+}
+
+.header__top-inner {
+  padding-bottom: 29px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.menu {
+  width: 590px;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.menu__list-link {
+  font-family: "Raleway", sans-serif;
+  padding: 0 6px 9px;
+  color: #373A39;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  transition: 0.5s ease all;
+
+}
+
+
+.menu__list-link:hover {
+  border-bottom: 1px solid #FCBB08;
+}
+
+.header__content {
+  background-image: url('../images/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  /* padding: 247px 0 62px; */
+  /* padding: 380px 0 62px; */
+  font-family: Montserrat, sans-serif;
+  /* min-height: calc(100vh - 93px); */
+}
+
+.header__content-inner {
+  min-height: calc(100vh - 93px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__title {
+  padding-top: 140px;
+  color: #FFF;
+  font-size: 72px;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: auto;
+}
+
+.header__subtitle {
+  color: #FCBB08;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.743px;
+  margin-top: 18px;
+  margin-bottom: auto;
+}
+
+.header__icon {
+  /* margin-top: 240px; */
+  margin-bottom: 62px;
+}
+.header__icon-img {
+  /* margin: 0 auto; */
+}
